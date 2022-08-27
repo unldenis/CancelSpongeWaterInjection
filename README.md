@@ -21,7 +21,7 @@ private boolean e(World var1, BlockPosition var2) {
 	//A lot of code...
 }
 ```
-The solution is to modify the method of the second condition, and to do so I use Byte Buddy, a code generation and manipulation library for creating and modifying Java classes during the runtime of a Java application and without the help of a compiler.
+The solution is to modify the method of the second condition, and to do so I use Byte Buddy, a code generation and manipulation library for creating and modifying Java classes during the runtime of a Java application.
 
 Without going into detail then, in the second I modify the body of the method and I always return false, this allows to never launch the water absorption.
 
