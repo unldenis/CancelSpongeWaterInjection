@@ -1,0 +1,7 @@
+name: CancelSpongeWaterInjection
+version: '${project.version}'
+main: com.github.unldenis.cswj.cswj.CancelSpongeWaterInjection
+api-version: 1.19
+load: STARTUP
+authors: [ unldenis ]
+description: Plugin that cancels the water absorption of the sponges in versions before 1.13.
