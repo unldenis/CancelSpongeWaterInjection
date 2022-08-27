@@ -28,3 +28,8 @@ The solution is to modify the method of the second condition, and to do so I use
 Without going into detail then, in the second I modify the body of the method and I always return false, this allows to never launch the water absorption.
 
 Note that the plugin is tested for 1.8.8, in case of problems with later versions some adjustments may be needed.
+
+## Preview
+
+https://user-images.githubusercontent.com/80055679/187027830-ed8a003a-1aba-4c03-b3e1-21b3ede4fcc9.mp4
+
