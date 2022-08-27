@@ -15,9 +15,7 @@ protected void e(World var1, BlockPosition var2, IBlockData var3) {
 		var1.setTypeAndData(var2, var3.set(WET, true), 2);
 		var1.triggerEffect(2001, var2, Block.getId(Blocks.WATER));
 	}
-	
 }
-
 
 private boolean e(World var1, BlockPosition var2) {
 	//A lot of code...
