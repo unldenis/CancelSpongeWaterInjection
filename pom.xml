@@ -14,7 +14,7 @@
   <description>Plugin that cancels the water absorption of the sponges in versions before 1.13.
   </description>
   <properties>
-    <java.version>1.8</java.version>
+    <java.version>16</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 

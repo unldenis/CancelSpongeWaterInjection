@@ -21,7 +21,6 @@
  */
 package com.cryptomorin.xseries;
 
-import com.sun.istack.internal.Nullable;
 import org.bukkit.entity.Player;
 
 import java.lang.invoke.MethodHandle;
@@ -179,7 +178,6 @@ public final class ReflectionUtils {
    * @return the NMS class or null if not found.
    * @since 4.0.0
    */
-  @Nullable
   public static Class<?> getNMSClass(String newPackage, String name) {
     if (supports(17)) name = newPackage + '.' + name;
     return getNMSClass(name);
@@ -193,7 +191,6 @@ public final class ReflectionUtils {
    * @return the NMS class or null if not found.
    * @since 1.0.0
    */
-  @Nullable
   public static Class<?> getNMSClass(String name) {
     try {
       return Class.forName(NMS + name);
@@ -245,7 +242,6 @@ public final class ReflectionUtils {
     }
   }
 
-  @Nullable
   public static Object getHandle(Player player) {
     Objects.requireNonNull(player, "Cannot get handle of null player");
     try {
@@ -256,7 +252,6 @@ public final class ReflectionUtils {
     }
   }
 
-  @Nullable
   public static Object getConnection(Player player) {
     Objects.requireNonNull(player, "Cannot get connection of null player");
     try {
@@ -276,7 +271,6 @@ public final class ReflectionUtils {
    * @return the CraftBukkit class or null if not found.
    * @since 1.0.0
    */
-  @Nullable
   public static Class<?> getCraftClass(String name) {
     try {
       return Class.forName(CRAFTBUKKIT + name);
